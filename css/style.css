@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header { 
+  background-color: black;
+  border-style: solid;
+  border-bottom-color: yellow; 
+  padding: 25px;
+}
+.clearfix::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+h1 { 
+font-family: merriweather; 
+font-weight: 700; 
+color: yellow;
+font-size: 30px;
+text-align: left;
+padding-top: 20px;
+float: left;
+
+ }
+nav { 
+float: right;
+padding: 25px;
+
+
+ }
+.nav { 
+font-family: Oswald;
+font-weight: 700;
+font-size: 20px;
+color: white;
+text-decoration: none;
+padding: 25px;
+ }
+
+.navtwo { 
+font-family: Source Sans Pro; 
+font-weight: 400; 
+font-size: 20px;
+color: white;
+text-decoration: none;
+padding: 25px;
+ }
+
+ li { 
+  display: inline-block;
+ }
+
+ h2{ 
+ background-color: #c6c6c6;
+ color: black;
+ font-family: Merriweather; 
+ font-weight: 700i;  
+ font-style: italic;
+ text-align: center;
+ padding: 20px;
+}
+
+.brain { 
+text-decoration: line-through;
+color: grey;
+ }
+
+ .are { 
+ text-decoration: underline;
+ text-decoration-color: yellow;
+  }
+
+.imagebox{  
+background-image: url("../images/coworking.jpg"); 
+background-repeat: no-repeat;
+background-position: center-center; 
+background-size: cover;
+padding: 105px;
+}
+
+strong { 
+font-family: Source Sans Pro; 
+font-weight: 700; 
+font-size: 30px;
+
+ }
+.box{ 
+border-color: black;
+border-style: solid;
+background-color: #FFF;
+opacity: .75;
+float: right;
+width: 35%;
+height: 250px;
+font-family: Source Sans Pro; 
+font-size: 15px;
+padding: 30px;
+}
+
+.create { 
+  text-decoration: none;
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  padding-left: 10px
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  border-radius: 5px; 
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Oswald; 
+
+
+ }
+
+ h4 { 
+font-family: Merriweather; 
+font-weight: 700;
+color: black;
+  }
+
+ .button {  
+  text-decoration: none;
+  color: black;
+  background-color: grey;
+  text-align: center;
+  padding-left: 10px
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  border-radius: 5px; 
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Oswald; 
+ } 
+
+ .flex { 
+display: flex; 
+flex-direction: row; 
+} 
+
+.flexone { 
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.flextwo { 
+   display: flex;
+   justify-content: center;
+
+} 
+.flexthree { 
+   display: flex;
+  justify-content: flex-end;
+
+ }
+ 
+
+footer{ 
+  font-family: Source Sans Pro; 
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  text-align: left;
+  padding-top: 35px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
